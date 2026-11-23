@@ -1,0 +1,52 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 77;
+	objects = {
+		000000000000000000000001 = {
+			isa = PBXProject;
+			attributes = { BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; };
+			buildConfigurationList = 000000000000000000000008;
+			developmentRegion = en;
+			knownRegions = (en, Base, "zh-Hans", "zh-Hant", ja);
+			mainGroup = 000000000000000000000002;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 000000000000000000000003;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (000000000000000000000005);
+		};
+		000000000000000000000002 = { isa = PBXGroup; children = (000000000000000000000004, 000000000000000000000018, 000000000000000000000017, 000000000000000000000003); sourceTree = "<group>"; };
+		000000000000000000000003 = { isa = PBXGroup; children = (000000000000000000000006); name = Products; sourceTree = "<group>"; };
+		000000000000000000000004 = { isa = PBXFileSystemSynchronizedRootGroup; path = App; sourceTree = "<group>"; };
+		000000000000000000000005 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000009;
+			buildPhases = (000000000000000000000010, 000000000000000000000011, 000000000000000000000012);
+			buildRules = ();
+			dependencies = ();
+			fileSystemSynchronizedGroups = (000000000000000000000004);
+			name = SideloadUpdater;
+			productName = SideloadUpdater;
+			productReference = 000000000000000000000006;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000006 = { isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideloadUpdater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000008 = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000013, 000000000000000000000014); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000009 = { isa = XCConfigurationList; buildConfigurations = (000000000000000000000015, 000000000000000000000016); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000010 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000011 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000019); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000012 = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000021); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000013 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; ENABLE_TESTABILITY = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone"; }; name = Debug; };
+		000000000000000000000014 = { isa = XCBuildConfiguration; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SWIFT_VERSION = 5.0; SWIFT_COMPILATION_MODE = wholemodule; }; name = Release; };
+		000000000000000000000015 = { isa = XCBuildConfiguration; baseConfigurationReference = 000000000000000000000017; buildSettings = {}; name = Debug; };
+		000000000000000000000016 = { isa = XCBuildConfiguration; baseConfigurationReference = 000000000000000000000017; buildSettings = {}; name = Release; };
+		000000000000000000000017 = { isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = App.xcconfig; sourceTree = SOURCE_ROOT; };
+		000000000000000000000018 = { isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = Vendor/IDevice.xcframework; sourceTree = SOURCE_ROOT; };
+		000000000000000000000019 = { isa = PBXBuildFile; fileRef = 000000000000000000000018; };
+		000000000000000000000020 = { isa = PBXFileReference; lastKnownFileType = text; path = "Vendor/IDevice-LICENSE.txt"; sourceTree = SOURCE_ROOT; };
+		000000000000000000000021 = { isa = PBXBuildFile; fileRef = 000000000000000000000020; };
+	};
+	rootObject = 000000000000000000000001;
+}

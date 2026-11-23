@@ -1,0 +1,4 @@
+module IDevice {
+  header "DeviceInventory.h"
+  export *
+}

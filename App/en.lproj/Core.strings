@@ -1,0 +1,46 @@
+"signature.fingerprint" = "Certificate fingerprint";
+"signature.name" = "Signature name";
+
+"tracking.hidden" = "Not tracked";
+"tracking.manual" = "Manually tracked";
+"tracking.verifiedProfile" = "Installed with a verified provisioning profile";
+"tracking.matchedFingerprint" = "Matched by certificate fingerprint";
+"tracking.ambiguousName" = "Signature name is ambiguous";
+"tracking.confirmFingerprint" = "Can confirm by certificate fingerprint";
+"tracking.matchedName" = "Matched by signature name";
+"tracking.untrackedProfileSignature" = "Provisioning profile verified, signing identity not tracked";
+"tracking.developerApp" = "Marked as a developer app, signing identity needs confirmation";
+"tracking.untrackedSignature" = "Signing identity not tracked";
+"tracking.missingSignature" = "Missing signing information";
+
+"update.available" = "App Store update available";
+"update.equal" = "Versions match";
+"update.installedNewer" = "Installed version is newer";
+"update.incomparable" = "Versions can’t be compared";
+"update.independent" = "Independent version, comparison off";
+"update.checking" = "Checking the App Store";
+"update.notFound" = "Original App Store app not found";
+"update.unavailable" = "App unavailable in the selected App Store regions";
+"update.queryFailed" = "App Store lookup failed";
+"update.stale" = "Previous lookup result";
+"update.awaitingCheck" = "Waiting to check";
+
+"binding.invalidLink" = "Enter a valid link to the original app on the App Store.";
+"binding.unavailable" = "This app is unavailable in the selected App Store regions.";
+"binding.missingRegion" = "Select an App Store region first.";
+
+"pairing.expired" = "Pairing expired. Start again.";
+"pairing.importUnavailable" = "The current device inventory service can’t import pairing files.";
+"pairing.remoteFailed" = "Couldn’t complete pairing. Check the loopback VPN and try again.";
+"pairing.importFailed" = "Couldn’t complete pairing. Make sure the loopback VPN is connected and try again.";
+"pairing.notificationTitle" = "%@ Pairing";
+"pairing.notificationBody" = "Six-digit pairing code: %@";
+
+"inventory.scanFailed" = "Couldn’t read the device inventory. Make sure the loopback VPN is connected and try again.";
+
+"catalog.invalidCountry" = "Select a valid App Store region.";
+"catalog.invalidID" = "The App Store app ID is invalid.";
+"catalog.invalidResponse" = "The App Store returned an invalid response. Try again.";
+"catalog.httpStatus" = "The App Store returned an HTTP error (%@). Try again.";
+"catalog.unavailableInStorefront" = "This app is unavailable in the selected App Store region.";
+"catalog.rateLimited" = "The App Store received too many requests. Try again later.";

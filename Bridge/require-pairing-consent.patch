@@ -1,0 +1,39 @@
+--- a/idevice/src/remote_pairing/mod.rs
++++ b/idevice/src/remote_pairing/mod.rs
+@@ -368,6 +368,18 @@
+     where
+         Fut: std::future::Future<Output = String>,
+     {
++        self.pair_with_pin(pairing_file, || async { Ok(pin_callback().await) })
++            .await
++    }
++
++    pub async fn pair_with_pin<Fut>(
++        &mut self,
++        pairing_file: &mut RpPairingFile,
++        pin_callback: impl Fn() -> Fut,
++    ) -> Result<(), IdeviceError>
++    where
++        Fut: std::future::Future<Output = Result<String, IdeviceError>>,
++    {
+         let (salt, public_key, pin) = self.request_pair_consent(pin_callback).await?;
+         let key = self.init_srp_context(&salt, &public_key, &pin).await?;
+         let tlv = self.save_pair_record_on_peer(pairing_file, &key).await?;
+@@ -385,7 +397,7 @@
+         pin_callback: impl Fn() -> Fut,
+     ) -> Result<(Vec<u8>, Vec<u8>, String), IdeviceError>
+     where
+-        Fut: std::future::Future<Output = String>,
++        Fut: std::future::Future<Output = Result<String, IdeviceError>>,
+     {
+         let tlv = tlv::serialize_tlv8(&[
+             tlv::TLV8Entry {
+@@ -483,7 +495,7 @@
+ 
+         let pin = match pin {
+             Some(p) => p,
+-            None => pin_callback().await,
++            None => pin_callback().await?,
+         };
+ 
+         if salt.is_empty() || public_key.is_empty() {

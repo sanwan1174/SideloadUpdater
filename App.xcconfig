@@ -1,0 +1,16 @@
+PRODUCT_BUNDLE_IDENTIFIER = shen3w.sideloadupdater
+PRODUCT_NAME = SideloadUpdater
+MARKETING_VERSION = 1.2.3
+CURRENT_PROJECT_VERSION = 7
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+TARGETED_DEVICE_FAMILY = 1
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
+SUPPORTS_MACCATALYST = NO
+CODE_SIGN_STYLE = Automatic
+ALWAYS_SEARCH_USER_PATHS = NO
+GENERATE_INFOPLIST_FILE = YES
+INFOPLIST_FILE = Info.plist
+INFOPLIST_KEY_CFBundleDisplayName = Sideload Updater
+INFOPLIST_KEY_NSLocalNetworkUsageDescription = Sideload Updater uses a local pairing connection to read the apps installed on this iPhone and their versions.
+INFOPLIST_KEY_UILaunchScreen_Generation = YES
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES

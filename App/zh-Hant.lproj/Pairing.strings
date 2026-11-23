@@ -1,0 +1,14 @@
+"inventory.error.needsPairing" = "請先在這部 iPhone 上使用六位數代碼完成配對。";
+"inventory.error.loopbackUnavailable" = "無法透過 10.7.0.1 連線到這部 iPhone。請確認裝置回送已開啟。如果使用 Surge，請啟用 Local Device Loopback 模組後再試一次。";
+"inventory.error.pairingRejected" = "這部 iPhone 未接受目前的配對。請解鎖裝置後再試一次。如果系統已撤銷授權，可在 App 設定中重新配對。";
+"inventory.error.invalidRecord" = "配對記錄無效。你可以在 App 設定中重新配對。";
+"inventory.error.inventoryUnavailable" = "無法完整讀取已安裝的 App 清單。請保持這部 iPhone 解鎖，然後再試一次。";
+"inventory.error.keychainUnavailable" = "無法存取配對密鑰。請解鎖這部 iPhone 後再試一次。";
+"inventory.error.simulatorUnavailable" = "請使用實體 iPhone 讀取裝置清單。";
+
+"pairing.host.error.unsupported" = "使用六位數代碼配對需要 iOS 27 或以上版本。你也可以匯入已為這部 iPhone 授權的遠端配對檔案。";
+"pairing.host.error.wifi" = "請先將這部 iPhone 連上 Wi-Fi，再開始配對。";
+"pairing.host.error.advertisement" = "無法在區域網路上發布配對主機。請允許 Sideload Updater 存取區域網路，然後再試一次。";
+"pairing.host.error.timeout" = "配對逾時。請重新開始配對，並在開發者模式設定中選擇 Sideload Updater。";
+"pairing.host.error.rejected" = "配對未完成。請在開發者模式設定中重新選擇 Sideload Updater，並輸入這次顯示的六位數代碼。";
+"pairing.host.error.unavailable" = "無法開始配對。請再試一次，或匯入已為這部 iPhone 授權的遠端配對檔案。";

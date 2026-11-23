@@ -1,0 +1,14 @@
+"inventory.error.needsPairing" = "Pair this iPhone with a six-digit code first.";
+"inventory.error.loopbackUnavailable" = "Couldn’t connect to this iPhone at 10.7.0.1. Make sure device loopback is enabled. If you use Surge, enable the Local Device Loopback module and try again.";
+"inventory.error.pairingRejected" = "This iPhone didn’t accept the current pairing. Unlock it and try again. If iOS revoked the pairing, pair again in the app settings.";
+"inventory.error.invalidRecord" = "The pairing record is invalid. You can pair again in the app settings.";
+"inventory.error.inventoryUnavailable" = "Couldn’t read the full list of installed apps. Keep this iPhone unlocked and try again.";
+"inventory.error.keychainUnavailable" = "Couldn’t access the pairing key. Unlock this iPhone and try again.";
+"inventory.error.simulatorUnavailable" = "Use a physical iPhone to read the device inventory.";
+
+"pairing.host.error.unsupported" = "Six-digit code pairing requires iOS 27 or later. You can also import a remote pairing file authorized for this iPhone.";
+"pairing.host.error.wifi" = "Connect this iPhone to Wi-Fi before pairing.";
+"pairing.host.error.advertisement" = "Couldn’t advertise the pairing host. Allow Sideload Updater to access the local network, then try again.";
+"pairing.host.error.timeout" = "Pairing timed out. Start pairing again and select Sideload Updater in Developer Mode settings.";
+"pairing.host.error.rejected" = "Pairing didn’t finish. Select Sideload Updater again in Developer Mode settings and enter the new six-digit code.";
+"pairing.host.error.unavailable" = "Couldn’t start pairing. Try again or import a remote pairing file authorized for this iPhone.";

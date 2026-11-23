@@ -1,0 +1,46 @@
+"signature.fingerprint" = "証明書のフィンガープリント";
+"signature.name" = "署名名";
+
+"tracking.hidden" = "追跡対象外";
+"tracking.manual" = "手動で追跡";
+"tracking.verifiedProfile" = "検証済みのプロビジョニングプロファイルでインストール済み";
+"tracking.matchedFingerprint" = "証明書のフィンガープリントが一致";
+"tracking.ambiguousName" = "署名名で特定できません";
+"tracking.confirmFingerprint" = "証明書のフィンガープリントで確認可能";
+"tracking.matchedName" = "署名名が一致";
+"tracking.untrackedProfileSignature" = "プロビジョニングプロファイルは検証済み、署名は追跡対象外";
+"tracking.developerApp" = "デバイス上で開発用アプリに指定済み、署名の確認が必要";
+"tracking.untrackedSignature" = "署名は追跡対象外";
+"tracking.missingSignature" = "署名情報がありません";
+
+"update.available" = "App Store 版のアップデートあり";
+"update.equal" = "バージョンは同じです";
+"update.installedNewer" = "インストール済みのバージョンの方が新しい";
+"update.incomparable" = "バージョンを比較できません";
+"update.independent" = "独自バージョンのため比較はオフ";
+"update.checking" = "App Store を確認中";
+"update.notFound" = "App Store のオリジナル版が見つかりません";
+"update.unavailable" = "選択した App Store の地域ではこのアプリを利用できません";
+"update.queryFailed" = "App Store を確認できませんでした";
+"update.stale" = "前回の確認結果";
+"update.awaitingCheck" = "確認待ち";
+
+"binding.invalidLink" = "App Store のオリジナル版への有効なリンクを入力してください。";
+"binding.unavailable" = "選択した App Store の地域ではこのアプリを利用できません。";
+"binding.missingRegion" = "先に App Store の地域を選択してください。";
+
+"pairing.expired" = "ペアリングの有効期限が切れました。最初からやり直してください。";
+"pairing.importUnavailable" = "現在のデバイス一覧サービスでは、ペアリングファイルを読み込めません。";
+"pairing.remoteFailed" = "ペアリングを完了できませんでした。ループバック VPN を確認して、やり直してください。";
+"pairing.importFailed" = "ペアリングを完了できませんでした。ループバック VPN に接続されていることを確認して、やり直してください。";
+"pairing.notificationTitle" = "%@ のペアリング";
+"pairing.notificationBody" = "6 桁のペアリングコード：%@";
+
+"inventory.scanFailed" = "デバイス一覧を読み込めませんでした。ループバック VPN に接続されていることを確認して、やり直してください。";
+
+"catalog.invalidCountry" = "有効な App Store の地域を選択してください。";
+"catalog.invalidID" = "App Store のアプリ ID が無効です。";
+"catalog.invalidResponse" = "App Store から無効な応答がありました。もう一度お試しください。";
+"catalog.httpStatus" = "App Store で HTTP エラー（%@）が発生しました。もう一度お試しください。";
+"catalog.unavailableInStorefront" = "選択した App Store の地域ではこのアプリを利用できません。";
+"catalog.rateLimited" = "App Store へのリクエストが多すぎます。しばらくしてから、もう一度お試しください。";

@@ -1,0 +1,14 @@
+"inventory.error.needsPairing" = "まず、このiPhoneで6桁のコードを使ってペアリングしてください。";
+"inventory.error.loopbackUnavailable" = "10.7.0.1経由でこのiPhoneに接続できませんでした。デバイスのループバックが有効か確認してください。Surgeを使用している場合は、Local Device Loopbackモジュールを有効にしてから、もう一度お試しください。";
+"inventory.error.pairingRejected" = "このiPhoneは現在のペアリングを受け付けませんでした。ロックを解除して、もう一度お試しください。システムがペアリングの許可を取り消した場合は、アプリの設定で再度ペアリングできます。";
+"inventory.error.invalidRecord" = "ペアリング記録が無効です。アプリの設定で再度ペアリングできます。";
+"inventory.error.inventoryUnavailable" = "インストール済みアプリの一覧をすべて読み取れませんでした。このiPhoneのロックを解除したまま、もう一度お試しください。";
+"inventory.error.keychainUnavailable" = "ペアリングキーにアクセスできませんでした。このiPhoneのロックを解除して、もう一度お試しください。";
+"inventory.error.simulatorUnavailable" = "デバイスのアプリ一覧を読み取るには、実機のiPhoneを使用してください。";
+
+"pairing.host.error.unsupported" = "6桁のコードでペアリングするには、iOS 27以降が必要です。このiPhoneで使用を許可されたリモートペアリングファイルを読み込むこともできます。";
+"pairing.host.error.wifi" = "このiPhoneをWi-Fiに接続してから、ペアリングを開始してください。";
+"pairing.host.error.advertisement" = "ローカルネットワークでペアリングホストを公開できませんでした。Sideload Updaterにローカルネットワークへのアクセスを許可してから、もう一度お試しください。";
+"pairing.host.error.timeout" = "ペアリングがタイムアウトしました。ペアリングを開始し直し、デベロッパモードの設定でSideload Updaterを選択してください。";
+"pairing.host.error.rejected" = "ペアリングが完了しませんでした。デベロッパモードの設定でSideload Updaterを選択し直し、今回表示された6桁のコードを入力してください。";
+"pairing.host.error.unavailable" = "ペアリングを開始できませんでした。もう一度試すか、このiPhoneで使用を許可されたリモートペアリングファイルを読み込んでください。";

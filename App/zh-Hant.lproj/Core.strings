@@ -1,0 +1,46 @@
+"signature.fingerprint" = "憑證指紋";
+"signature.name" = "簽章名稱";
+
+"tracking.hidden" = "未追蹤";
+"tracking.manual" = "手動追蹤";
+"tracking.verifiedProfile" = "使用已驗證的佈建描述檔安裝";
+"tracking.matchedFingerprint" = "依憑證指紋比對";
+"tracking.ambiguousName" = "無法以簽章名稱辨識";
+"tracking.confirmFingerprint" = "可依憑證指紋確認";
+"tracking.matchedName" = "依簽章名稱比對";
+"tracking.untrackedProfileSignature" = "佈建描述檔已驗證，簽署身分尚未追蹤";
+"tracking.developerApp" = "裝置標示為開發者 App，待確認簽署身分";
+"tracking.untrackedSignature" = "簽署身分尚未追蹤";
+"tracking.missingSignature" = "缺少簽署資訊";
+
+"update.available" = "App Store 版本有更新";
+"update.equal" = "版本相同";
+"update.installedNewer" = "已安裝的版本較新";
+"update.incomparable" = "無法比較版本";
+"update.independent" = "獨立版本，已關閉比較";
+"update.checking" = "正在查詢 App Store";
+"update.notFound" = "找不到 App Store 原版";
+"update.unavailable" = "所選的 App Store 地區皆無此 App";
+"update.queryFailed" = "無法查詢 App Store";
+"update.stale" = "上次查詢結果";
+"update.awaitingCheck" = "等待檢查";
+
+"binding.invalidLink" = "請輸入有效的 App Store 原版連結。";
+"binding.unavailable" = "所選的 App Store 地區皆無此 App。";
+"binding.missingRegion" = "請先選擇 App Store 地區。";
+
+"pairing.expired" = "配對已逾期，請重新開始。";
+"pairing.importUnavailable" = "目前的裝置清單服務無法匯入配對檔案。";
+"pairing.remoteFailed" = "無法完成配對。請檢查本機的迴路 VPN 後再試一次。";
+"pairing.importFailed" = "無法完成配對。請確認本機的迴路 VPN 已連線，再試一次。";
+"pairing.notificationTitle" = "%@ 配對";
+"pairing.notificationBody" = "六位數配對碼：%@";
+
+"inventory.scanFailed" = "無法讀取裝置清單。請確認本機的迴路 VPN 已連線，再試一次。";
+
+"catalog.invalidCountry" = "請選擇有效的 App Store 地區。";
+"catalog.invalidID" = "App Store 的 App ID 無效。";
+"catalog.invalidResponse" = "App Store 傳回無效的回應，請再試一次。";
+"catalog.httpStatus" = "App Store 傳回 HTTP 錯誤（%@），請再試一次。";
+"catalog.unavailableInStorefront" = "所選的 App Store 地區無此 App。";
+"catalog.rateLimited" = "App Store 收到過多要求，請稍後再試。";

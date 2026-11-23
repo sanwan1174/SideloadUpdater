@@ -1,0 +1,23 @@
+[package]
+name = "idevice-ffi"
+version = "0.1.68"
+edition = "2024"
+build = false
+
+[lib]
+path = "src/updater_inventory.rs"
+crate-type = ["staticlib"]
+
+[dependencies]
+idevice = { path = "../idevice", default-features = false, features = [
+    "ring",
+    "core_device_proxy",
+    "installation_proxy",
+    "remote_pairing",
+    "rsd",
+    "tunnel_tcp_stack",
+] }
+libc = "0.2"
+plist = "1"
+tokio = { version = "1", features = ["macros", "net", "rt-multi-thread", "sync", "time"] }
+tracing = { version = "0.1", features = ["max_level_off"] }

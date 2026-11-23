@@ -1,0 +1,46 @@
+"signature.fingerprint" = "证书指纹";
+"signature.name" = "签名名称";
+
+"tracking.hidden" = "未跟踪";
+"tracking.manual" = "手动跟踪";
+"tracking.verifiedProfile" = "已验证的描述文件安装";
+"tracking.matchedFingerprint" = "按证书指纹匹配";
+"tracking.ambiguousName" = "签名名称无法唯一识别";
+"tracking.confirmFingerprint" = "可按证书指纹确认";
+"tracking.matchedName" = "按签名名称匹配";
+"tracking.untrackedProfileSignature" = "已验证描述文件，签名尚未跟踪";
+"tracking.developerApp" = "设备标记为开发 App，签名待确认";
+"tracking.untrackedSignature" = "签名尚未跟踪";
+"tracking.missingSignature" = "缺少签名信息";
+
+"update.available" = "官方版有更新";
+"update.equal" = "版本一致";
+"update.installedNewer" = "本机版本较高";
+"update.incomparable" = "无法比较";
+"update.independent" = "独立版本，已关闭比较";
+"update.checking" = "正在查询商店";
+"update.notFound" = "未找到商店原版";
+"update.unavailable" = "所选地区均查不到此商店条目";
+"update.queryFailed" = "商店查询失败";
+"update.stale" = "上次查询结果";
+"update.awaitingCheck" = "等待检查";
+
+"binding.invalidLink" = "请输入有效的 App Store 原版链接。";
+"binding.unavailable" = "在所选的商店地区均查不到该应用。";
+"binding.missingRegion" = "请先选择 App Store 地区。";
+
+"pairing.expired" = "配对已过期，请重新开始。";
+"pairing.importUnavailable" = "当前设备清单服务无法导入配对文件。";
+"pairing.remoteFailed" = "无法完成配对。请检查本机回环 VPN，再重试。";
+"pairing.importFailed" = "无法完成配对。请确认本机回环 VPN 已连接，再重试。";
+"pairing.notificationTitle" = "%@ 配对";
+"pairing.notificationBody" = "六位配对码 %@";
+
+"inventory.scanFailed" = "无法读取设备清单。请确认本机回环 VPN 已连接，再重试。";
+
+"catalog.invalidCountry" = "请选择有效的 App Store 地区。";
+"catalog.invalidID" = "App Store 应用 ID 无效。";
+"catalog.invalidResponse" = "App Store 返回了无效响应，请重试。";
+"catalog.httpStatus" = "App Store 返回了 HTTP 错误（%@），请重试。";
+"catalog.unavailableInStorefront" = "此应用在所选的 App Store 地区不可用。";
+"catalog.rateLimited" = "App Store 收到过多请求，请稍后重试。";

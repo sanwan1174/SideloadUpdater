@@ -1,0 +1,14 @@
+"inventory.error.needsPairing" = "请先在本机完成六位码配对。";
+"inventory.error.loopbackUnavailable" = "无法通过 10.7.0.1 连接此 iPhone。请确认本机回环已开启；使用 Surge 时，请启用 Local Device Loopback 模块后重试。";
+"inventory.error.pairingRejected" = "此 iPhone 未接受当前配对。请解锁设备后重试。若系统已撤销授权，可在 App 设置中重新配对。";
+"inventory.error.invalidRecord" = "配对记录无效。可在 App 设置中重新配对。";
+"inventory.error.inventoryUnavailable" = "未能完整读取已安装应用。请保持此 iPhone 解锁并重试。";
+"inventory.error.keychainUnavailable" = "无法访问配对密钥。请解锁此 iPhone 后重试。";
+"inventory.error.simulatorUnavailable" = "请在 iPhone 真机上读取设备清单。";
+
+"pairing.host.error.unsupported" = "在 iOS 27 或更新版本上使用六位码配对。也可以导入为此 iPhone 授权的远程配对文件。";
+"pairing.host.error.wifi" = "请让此 iPhone 连接 Wi-Fi，再开始配对。";
+"pairing.host.error.advertisement" = "无法发布配对主机。请允许 Sideload Updater 访问本地网络，再重试。";
+"pairing.host.error.timeout" = "配对超时。请重新打开配对，并在开发者模式设置中选择 Sideload Updater。";
+"pairing.host.error.rejected" = "配对未完成。请在开发者模式设置中重新选择 Sideload Updater，并输入本次显示的六位码。";
+"pairing.host.error.unavailable" = "无法启动配对。请重试，或导入为此 iPhone 授权的远程配对文件。";
